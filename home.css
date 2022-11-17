@@ -1,0 +1,90 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/livros.jpg);
+    background-size: cover;
+
+}
+
+
+nav{
+    width: 100%; height: 75px;
+    /*background-color:  red;*/
+    display: flex; color: rgb(255, 197, 197);
+    background-color: #fff;
+    
+}
+
+.logo{
+    width: 47%;
+    height: 95px;
+
+}
+
+.logo img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 0%;
+    left: 35px;
+    
+
+}
+    
+
+
+.logo h1 a{
+    text-decoration: none;
+    color: rgb(126, 73, 38);
+    
+}
+
+.menu{
+    width: 50%; height: 100px;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -3%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(126, 73, 38);
+    
+}
+
+section{ display: flex;  }
+
+.leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px;}
+
+.leftside img{  width: 550px;  height: 500px; }
+
+.rightside{ width: 55%; height: 300px; color: rgb(139, 98, 63); text-align: center; margin-top: 80px; padding: 40px;}
+
+.rightside h1{ text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase; } 
+
+.rightside p {  
+    font-size: 1.1rem; padding: 30px 0; }
